@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>M-chat:A Realtime Chat App</title>
+    <script src = "http://localhost:8000/socket.io/socket.io.js"></script>
+    <script src = "JS/client.js"></script>
+    <link rel="stylesheet" href="CSS/style.css" class="css">
+  </head>
+  <body>
+   <nav>
+    <img class= "logo" src = "Chat.png" alt="">
+   </nav>
+   <div class="container">
+    <div class="message right">Arjun: Hey!How are You</div>
+    <div class="message left">DJ: I am fine</div>
+    <div class="message right">Arjun: what are you doing!</div>
+    <div class="message left">DJ: Nothimg!Just Chilling the Holidays</div>
+    <div class="message right">Arjun: I'm doing pretty good too. I was just wondering if you had any new music recommendations for me?</div>
+    <div class="message left">DJ:Absolutely! What kind of music are you in the mood for? </div>
+    <div class="message right">Arjun: : I'm in the mood for some chill electronic music. Something I can listen to while studying or working.!</div>
+    <div class="message left">DJ: Oh, I've got just the thing! Have you heard of Tycho? He's got some great chill electronic music that's perfect for studying. I highly recommend his album "Dive".</div>
+    <div class="message right">Arjun:No, I haven't heard of him. Thanks for the recommendation, I'll check it out!</div>
+    <div class="message left">DJ:  No problem! Let me know what you think of it. And if you're ever in the mood for some upbeat dance music, I've got plenty of that too.</div>
+    <div class="message right">Arjun: Sounds good, I'll keep that in mind. Thanks again, DJ!</div>
+    <div class="message left">DJ: Anytime, Arjun. Catch you later!</div>
+    <div class="message right">Arjun:Okay Then Bye!</div>
+    <div class="message left">DJ: Bye!!Arjun</div>
+
+</div>
+
+<div class="send">
+    <form action="#" id="send-container">
+        <input type="text" name="messageInp" id= "messageInp">
+        <button class="btn" type="submit">Send</button>
+    </form>
+</div>
+  </body>
+</html>
